@@ -90,7 +90,7 @@ public class SmoketTest extends baseTestClass {
 		 carNum.invokeProperty();
 		String carTitle1= carNum.pageTitle();
 		System.out.print(carTitle1);
-		 Assert.assertEquals(carTitle1 ,"Car Insurance Online: Compare, Buy/Renew Car Insurance Policy"  , "Both the pages are different");
+		 Assert.assertEquals(carTitle1 ,"Car Insurance Online: Buy/Renew Car Insurance Policy, Get 80%* Off"  , "Both the pages are different");
 		 LPage.invokeProperty();
 		 
 		 driver.manage().deleteAllCookies();

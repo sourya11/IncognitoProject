@@ -77,16 +77,17 @@ public void fillForm(String name,String mobileno ,String email) {
 	         }
 	         //name
 	        
-			driver.findElement(By.xpath(prop.getProperty("name_xpath"))).sendKeys(name);
+			//driver.findElement(By.xpath(prop.getProperty("name_xpath"))).sendKeys(name);
+	         driver.findElement(By.xpath("//*[@id='dvVariant']/div[2]/div[1]/div[1]/input")).sendKeys(name);
 			
 	         //email
-	         
-	        		 driver.findElement(By.xpath(prop.getProperty("email_xpath"))).sendKeys(email);
+	         driver.findElement(By.xpath("//*[@id='email']")).sendKeys(email);
+	        		 //driver.findElement(By.xpath(prop.getProperty("email_xpath"))).sendKeys(email);
 	     			
 	        	
 	         //mobile
-	        
-			driver.findElement(By.xpath(prop.getProperty("mobile_xpath"))).sendKeys(mobileno);
+	        		 driver.findElement(By.xpath("//*[@id='mobileNo']")).sendKeys(mobileno);
+			//driver.findElement(By.xpath(prop.getProperty("mobile_xpath"))).sendKeys(mobileno);
 			
 	         //submit
 	     

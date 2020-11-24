@@ -8,12 +8,12 @@
           <include name="travelInsuranceTestCase" invocation-numbers="1 2 3 4 5 6"/>
           <include name="flushReports"/>
           <include name="close"/>
-          <include name="CarInsuranceTestCase" invocation-numbers="0 1 2 3"/>
+          <include name="CarInsuranceTestCase" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- testClass.RegressionTest -->
       <class name="testClass.SmoketTest">
         <methods>
-          <include name="checkIconAndMenuItem"/>
+          <include name="Navigation"/>
           <include name="flushReports"/>
           <include name="close"/>
         </methods>

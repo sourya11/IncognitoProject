@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="11" ignored="0" total="18" passed="7">
+<testng-results skipped="0" failed="10" ignored="0" total="18" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1450206" started-at="2020-11-21T14:04:30Z" finished-at="2020-11-21T14:28:40Z">
+  <suite name="Default suite" duration-ms="1023473" started-at="2020-11-24T09:54:00Z" finished-at="2020-11-24T10:11:03Z">
     <groups>
       <group name="Regression">
         <method signature="RegressionTest.CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" class="testClass.RegressionTest"/>
@@ -14,9 +14,9 @@
         <method signature="SmoketTest.checkIconAndMenuItem()[pri:0, instance:testClass.SmoketTest@149494d8]" name="checkIconAndMenuItem" class="testClass.SmoketTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="1450206" started-at="2020-11-21T14:04:30Z" finished-at="2020-11-21T14:28:40Z">
+    <test name="Default test" duration-ms="1023473" started-at="2020-11-24T09:54:00Z" finished-at="2020-11-24T10:11:03Z">
       <class name="utilities.test_DataProvider">
-        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="2" started-at="2020-11-21T19:43:56Z" data-provider="testCase1" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="8" started-at="2020-11-24T15:31:37Z" data-provider="testCase1" finished-at="2020-11-24T15:31:37Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carInsuranceTestCase -->
-        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="1" started-at="2020-11-21T19:43:56Z" data-provider="testCase1" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="1" started-at="2020-11-24T15:31:37Z" data-provider="testCase1" finished-at="2020-11-24T15:31:37Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carInsuranceTestCase -->
-        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="1" started-at="2020-11-21T19:43:56Z" data-provider="testCase1" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="1" started-at="2020-11-24T15:31:37Z" data-provider="testCase1" finished-at="2020-11-24T15:31:37Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carInsuranceTestCase -->
-        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="1" started-at="2020-11-21T19:43:56Z" data-provider="testCase1" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="carInsuranceTestCase(java.util.Hashtable)[pri:0, instance:utilities.test_DataProvider@954b04f]" name="carInsuranceTestCase" duration-ms="2" started-at="2020-11-24T15:31:37Z" data-provider="testCase1" finished-at="2020-11-24T15:31:37Z">
           <params>
             <param index="0">
               <value>
@@ -62,35 +62,41 @@
         </test-method> <!-- carInsuranceTestCase -->
       </class> <!-- utilities.test_DataProvider -->
       <class name="testClass.SmoketTest">
-        <test-method status="PASS" signature="HealthInsuranceTestCase()[pri:0, instance:testClass.SmoketTest@149494d8]" name="HealthInsuranceTestCase" duration-ms="33265" started-at="2020-11-21T19:43:56Z" finished-at="2020-11-21T19:44:30Z">
+        <test-method status="PASS" signature="HealthInsuranceTestCase()[pri:0, instance:testClass.SmoketTest@149494d8]" name="HealthInsuranceTestCase" duration-ms="24798" started-at="2020-11-24T15:31:37Z" finished-at="2020-11-24T15:32:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HealthInsuranceTestCase -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="97" started-at="2020-11-21T19:44:30Z" finished-at="2020-11-21T19:44:30Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="96" started-at="2020-11-24T15:32:02Z" finished-at="2020-11-24T15:32:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="PASS" signature="Navigation()[pri:0, instance:testClass.SmoketTest@149494d8]" name="Navigation" duration-ms="98602" started-at="2020-11-21T19:44:30Z" finished-at="2020-11-21T19:46:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navigation -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="176" started-at="2020-11-21T19:46:08Z" finished-at="2020-11-21T19:46:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="checkIconAndMenuItem()[pri:0, instance:testClass.SmoketTest@149494d8]" name="checkIconAndMenuItem" duration-ms="98579" started-at="2020-11-21T19:46:09Z" finished-at="2020-11-21T19:47:47Z">
+        <test-method status="FAIL" signature="Navigation()[pri:0, instance:testClass.SmoketTest@149494d8]" name="Navigation" duration-ms="130836" started-at="2020-11-24T15:32:02Z" finished-at="2020-11-24T15:34:13Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Both the pages are different expected [Car Insurance Online: Compare, Buy/Renew Car Insurance Policy] but found [Car Insurance Online: Buy/Renew Car Insurance Policy, Get 80%* Off]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Other Insurance"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f5ddf67ecbe00fc3638b150ab3c6da6a
+*** Element info: {Using=link text, value=Other Insurance}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Both the pages are different expected [Car Insurance Online: Compare, Buy/Renew Car Insurance Policy] but found [Car Insurance Online: Buy/Renew Car Insurance Policy, Get 80%* Off]
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"link text","selector":"Other Insurance"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f5ddf67ecbe00fc3638b150ab3c6da6a
+*** Element info: {Using=link text, value=Other Insurance}
 	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at testClass.SmoketTest.checkIconAndMenuItem(SmoketTest.java:93)
+	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
+	at pageClass.landingPage.clickTravelInsurance(landingPage.java:42)
+	at testClass.SmoketTest.Navigation(SmoketTest.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -121,24 +127,32 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkIconAndMenuItem -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="17016" started-at="2020-11-21T19:47:47Z" finished-at="2020-11-21T19:48:04Z">
+        </test-method> <!-- Navigation -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="146" started-at="2020-11-24T15:34:13Z" finished-at="2020-11-24T15:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.SmoketTest@149494d8]" name="close" is-config="true" duration-ms="1696" started-at="2020-11-21T19:58:38Z" finished-at="2020-11-21T19:58:40Z">
+        <test-method status="PASS" signature="checkIconAndMenuItem()[pri:0, instance:testClass.SmoketTest@149494d8]" name="checkIconAndMenuItem" duration-ms="58213" started-at="2020-11-24T15:34:13Z" finished-at="2020-11-24T15:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIconAndMenuItem -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.SmoketTest@149494d8]" name="flushReports" is-config="true" duration-ms="173" started-at="2020-11-24T15:35:11Z" finished-at="2020-11-24T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.SmoketTest@149494d8]" name="close" is-config="true" duration-ms="13907" started-at="2020-11-24T15:40:49Z" finished-at="2020-11-24T15:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testClass.SmoketTest -->
       <class name="utilities.extentReport">
-        <test-method status="PASS" signature="getReport()[pri:0, instance:utilities.extentReport@5c072e3f]" name="getReport" is-config="true" duration-ms="50" started-at="2020-11-21T19:34:30Z" finished-at="2020-11-21T19:34:30Z">
+        <test-method status="PASS" signature="getReport()[pri:0, instance:utilities.extentReport@5c072e3f]" name="getReport" is-config="true" duration-ms="52" started-at="2020-11-24T15:24:00Z" finished-at="2020-11-24T15:24:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
       </class> <!-- utilities.extentReport -->
       <class name="testClass.RegressionTest">
-        <test-method status="PASS" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="180601" started-at="2020-11-21T19:34:33Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:37:34Z">
+        <test-method status="PASS" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="89394" started-at="2020-11-24T15:24:03Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:25:33Z">
           <params>
             <param index="0">
               <value>
@@ -149,15 +163,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="4330" started-at="2020-11-21T19:37:34Z" finished-at="2020-11-21T19:37:38Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="188" started-at="2020-11-24T15:25:33Z" finished-at="2020-11-24T15:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="5038" started-at="2020-11-21T19:37:38Z" finished-at="2020-11-21T19:37:43Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="2914" started-at="2020-11-24T15:25:33Z" finished-at="2020-11-24T15:25:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="49694" started-at="2020-11-21T19:37:43Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:38:33Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="34587" started-at="2020-11-24T15:25:36Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:26:10Z">
           <params>
             <param index="0">
               <value>
@@ -206,15 +220,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="979" started-at="2020-11-21T19:38:33Z" finished-at="2020-11-21T19:38:34Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="381" started-at="2020-11-24T15:26:10Z" finished-at="2020-11-24T15:26:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="352" started-at="2020-11-21T19:38:34Z" finished-at="2020-11-21T19:38:34Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="356" started-at="2020-11-24T15:26:11Z" finished-at="2020-11-24T15:26:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="51059" started-at="2020-11-21T19:38:34Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:39:25Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="35125" started-at="2020-11-24T15:26:11Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:26:46Z">
           <params>
             <param index="0">
               <value>
@@ -263,15 +277,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="2134" started-at="2020-11-21T19:39:25Z" finished-at="2020-11-21T19:39:27Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="243" started-at="2020-11-24T15:26:46Z" finished-at="2020-11-24T15:26:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="140" started-at="2020-11-21T19:39:27Z" finished-at="2020-11-21T19:39:28Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="147" started-at="2020-11-24T15:26:47Z" finished-at="2020-11-24T15:26:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="52796" started-at="2020-11-21T19:39:28Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:40:20Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="43654" started-at="2020-11-24T15:26:47Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:27:30Z">
           <params>
             <param index="0">
               <value>
@@ -320,15 +334,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="3353" started-at="2020-11-21T19:40:20Z" finished-at="2020-11-21T19:40:24Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="209" started-at="2020-11-24T15:27:30Z" finished-at="2020-11-24T15:27:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="214" started-at="2020-11-21T19:40:24Z" finished-at="2020-11-21T19:40:24Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="100" started-at="2020-11-24T15:27:31Z" finished-at="2020-11-24T15:27:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="122913" started-at="2020-11-21T19:40:24Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:42:27Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="108795" started-at="2020-11-24T15:27:31Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:29:19Z">
           <params>
             <param index="0">
               <value>
@@ -339,24 +353,24 @@
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='SI']"}
-  (Session info: chrome=86.0.4240.111)
+  (Session info: chrome=87.0.4280.66)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4f71b0a2107a34bbb751240039357c5
 *** Element info: {Using=name, value=SI}]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='SI']"}
-  (Session info: chrome=86.0.4240.111)
+  (Session info: chrome=87.0.4280.66)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4f71b0a2107a34bbb751240039357c5
 *** Element info: {Using=name, value=SI}
 	at org.testng.Assert.fail(Assert.java:93)
 	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
@@ -393,15 +407,15 @@ Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="1260" started-at="2020-11-21T19:42:27Z" finished-at="2020-11-21T19:42:28Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="340" started-at="2020-11-24T15:29:19Z" finished-at="2020-11-24T15:29:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="129" started-at="2020-11-21T19:42:28Z" finished-at="2020-11-21T19:42:28Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="122" started-at="2020-11-24T15:29:20Z" finished-at="2020-11-24T15:29:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="49117" started-at="2020-11-21T19:42:28Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:43:17Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="103138" started-at="2020-11-24T15:29:20Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:31:03Z">
           <params>
             <param index="0">
               <value>
@@ -409,15 +423,43 @@ Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[This is required.]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fb4f40de991297ba13271828c40bb67
+*** Element info: {Using=xpath, value=//*[@id="email"]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: This is required.
-	at org.testng.Assert.fail(Assert.java:93)
-	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
-	at pageClass.TravellerPersonalDetails.personalDetails(TravellerPersonalDetails.java:62)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fb4f40de991297ba13271828c40bb67
+*** Element info: {Using=xpath, value=//*[@id="email"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageClass.TravellerPersonalDetails.personalDetails(TravellerPersonalDetails.java:61)
 	at testClass.RegressionTest.travelInsuranceTestCase(RegressionTest.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -446,19 +488,19 @@ Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="1602" started-at="2020-11-21T19:43:17Z" finished-at="2020-11-21T19:43:19Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="429" started-at="2020-11-24T15:31:03Z" finished-at="2020-11-24T15:31:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="144" started-at="2020-11-21T19:43:19Z" finished-at="2020-11-21T19:43:19Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="166" started-at="2020-11-24T15:31:03Z" finished-at="2020-11-24T15:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="35391" started-at="2020-11-21T19:43:19Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-21T19:43:55Z">
+        <test-method status="FAIL" signature="travelInsuranceTestCase(java.util.Hashtable)[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="travelInsuranceTestCase" duration-ms="33055" started-at="2020-11-24T15:31:04Z" data-provider="getTravelInsuranceTestCase" finished-at="2020-11-24T15:31:37Z">
           <params>
             <param index="0">
               <value>
@@ -507,15 +549,15 @@ Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="1042" started-at="2020-11-21T19:43:55Z" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="216" started-at="2020-11-24T15:31:37Z" finished-at="2020-11-24T15:31:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="108" started-at="2020-11-21T19:43:56Z" finished-at="2020-11-21T19:43:56Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="155" started-at="2020-11-24T15:31:37Z" finished-at="2020-11-24T15:31:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="194155" started-at="2020-11-21T19:48:04Z" data-provider="carInsuranceTestCase" finished-at="2020-11-21T19:51:19Z">
+        <test-method status="PASS" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="84729" started-at="2020-11-24T15:35:12Z" data-provider="carInsuranceTestCase" finished-at="2020-11-24T15:36:37Z">
           <params>
             <param index="0">
               <value>
@@ -523,84 +565,18 @@ Session ID: 597f4f15b8242d90ab4ab0f1bebf725d
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c9d6c025b2b44204de2299789ba43983
-*** Element info: {Using=xpath, value=//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c9d6c025b2b44204de2299789ba43983
-*** Element info: {Using=xpath, value=//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageClass.fillCarInsuranceForm.fillForm(fillCarInsuranceForm.java:80)
-	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:88)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="1810" started-at="2020-11-21T19:51:19Z" finished-at="2020-11-21T19:51:20Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="252" started-at="2020-11-24T15:36:37Z" finished-at="2020-11-24T15:36:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="1028" started-at="2020-11-21T19:51:20Z" finished-at="2020-11-21T19:51:21Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="535" started-at="2020-11-24T15:36:37Z" finished-at="2020-11-24T15:36:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="151970" started-at="2020-11-21T19:51:21Z" data-provider="carInsuranceTestCase" finished-at="2020-11-21T19:53:53Z">
+        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="48113" started-at="2020-11-24T15:36:37Z" data-provider="carInsuranceTestCase" finished-at="2020-11-24T15:37:26Z">
           <params>
             <param index="0">
               <value>
@@ -608,195 +584,13 @@ Session ID: c9d6c025b2b44204de2299789ba43983
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40eb30c7dd3e53e3c07a61b223b48531
-*** Element info: {Using=xpath, value=//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40eb30c7dd3e53e3c07a61b223b48531
-*** Element info: {Using=xpath, value=//*[@id="dvVariant"]/div[2]/div[1]/div[1]/div[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageClass.fillCarInsuranceForm.fillForm(fillCarInsuranceForm.java:80)
-	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:88)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CarInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="3100" started-at="2020-11-21T19:53:53Z" finished-at="2020-11-21T19:53:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="271" started-at="2020-11-21T19:53:57Z" finished-at="2020-11-21T19:53:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="52188" started-at="2020-11-21T19:53:57Z" data-provider="carInsuranceTestCase" finished-at="2020-11-21T19:54:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Name=, PhoneNumber=9718116506, Remark=Invalid Credentials, Email=komalchawla@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.001
-  (Session info: chrome=86.0.4240.111)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e4aea36b1dd74918e78fa9aa8a8fc5f4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.001
-  (Session info: chrome=86.0.4240.111)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e4aea36b1dd74918e78fa9aa8a8fc5f4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at BaseClass.pageBaseClass.callUrl(pageBaseClass.java:65)
-	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CarInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="3770" started-at="2020-11-21T19:54:49Z" finished-at="2020-11-21T19:54:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="110" started-at="2020-11-21T19:54:53Z" finished-at="2020-11-21T19:54:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReports -->
-        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="202798" started-at="2020-11-21T19:54:53Z" data-provider="carInsuranceTestCase" finished-at="2020-11-21T19:58:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Name=Garima, PhoneNumber=9718116506, Remark=Invalid Credentials, Email=}]]>
-              </value>
-            </param>
-          </params>
           <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Motor Insurance')]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a9cb85c98620a129bc302ee01bc150a
-*** Element info: {Using=xpath, value=//a[contains(text(),'Motor Insurance')]}]]>
-            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Motor Insurance')]"}
-  (Session info: chrome=86.0.4240.111)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a9cb85c98620a129bc302ee01bc150a
-*** Element info: {Using=xpath, value=//a[contains(text(),'Motor Insurance')]}
+              <![CDATA[java.lang.AssertionError: 
 	at org.testng.Assert.fail(Assert.java:93)
 	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
-	at pageClass.landingPage.getCarInsurance(landingPage.java:137)
-	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:82)
+	at pageClass.fillCarInsuranceForm.fillForm(fillCarInsuranceForm.java:109)
+	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:88)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -828,11 +622,141 @@ Session ID: 5a9cb85c98620a129bc302ee01bc150a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarInsuranceTestCase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="22304" started-at="2020-11-21T19:58:16Z" finished-at="2020-11-21T19:58:38Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="687" started-at="2020-11-24T15:37:26Z" finished-at="2020-11-24T15:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="311" started-at="2020-11-21T19:58:38Z" finished-at="2020-11-21T19:58:38Z">
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="188" started-at="2020-11-24T15:37:26Z" finished-at="2020-11-24T15:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="40342" started-at="2020-11-24T15:37:26Z" data-provider="carInsuranceTestCase" finished-at="2020-11-24T15:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=, PhoneNumber=9718116506, Remark=Invalid Credentials, Email=komalchawla@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Please enter your full name.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Please enter your full name.
+	at org.testng.Assert.fail(Assert.java:93)
+	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
+	at pageClass.fillCarInsuranceForm.fillForm(fillCarInsuranceForm.java:105)
+	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceTestCase -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="584" started-at="2020-11-24T15:38:07Z" finished-at="2020-11-24T15:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="190" started-at="2020-11-24T15:38:07Z" finished-at="2020-11-24T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="FAIL" signature="CarInsuranceTestCase(java.util.Hashtable)[pri:2, instance:testClass.RegressionTest@4d1b0d2a]" name="CarInsuranceTestCase" duration-ms="159770" started-at="2020-11-24T15:38:08Z" data-provider="carInsuranceTestCase" finished-at="2020-11-24T15:40:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Garima, PhoneNumber=9718116506, Remark=Invalid Credentials, Email=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='spn1']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 17e9fd7c1cd928d6d38d8e14336b2d82
+*** Element info: {Using=xpath, value=//*[@id='spn1']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='spn1']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 17e9fd7c1cd928d6d38d8e14336b2d82
+*** Element info: {Using=xpath, value=//*[@id='spn1']}
+	at org.testng.Assert.fail(Assert.java:93)
+	at BaseClass.pageBaseClass.testCaseFail(pageBaseClass.java:100)
+	at pageClass.fillCarInsuranceForm.fillForm(fillCarInsuranceForm.java:26)
+	at testClass.RegressionTest.CarInsuranceTestCase(RegressionTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsuranceTestCase -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="close" is-config="true" duration-ms="1691" started-at="2020-11-24T15:40:47Z" finished-at="2020-11-24T15:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClass.RegressionTest@4d1b0d2a]" name="flushReports" is-config="true" duration-ms="356" started-at="2020-11-24T15:40:49Z" finished-at="2020-11-24T15:40:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReports -->
