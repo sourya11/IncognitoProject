@@ -31,6 +31,7 @@ public class baseTestClass{
 		   if(bro.equalsIgnoreCase("chrome")) {
 			   System.out.println("yes");
 			   System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\selenium\\chromedriver.exe");
+			  //System.setProperty("webdriver.gecko.driver" , System.getProperty("user.dir")  + "\\driver\\chromedriver.exe");
 			   driver= new ChromeDriver();
 		   }
 		   else if(bro.equalsIgnoreCase("firefox")) {

@@ -13,7 +13,8 @@ public class testDataProvider {
 	public static Object[][] testCase1(String sheetName , String  testCase){
 		
 		
-		readExcelData readFile=new readExcelData(System.getProperty("user.dir") + "\\src\\main\\java\\TestData\\Book1.xlsx");
+		//readExcelData readFile=new readExcelData(System.getProperty("user.dir") + "\\src\\main\\java\\TestData\\Book1.xlsx");
+		readExcelData readFile=new readExcelData(System.getProperty("user.dir") + "\\src\\main\\java\\TestData\\Book2.xlsx");
 		 
 		 
 		 int StartRow=0;

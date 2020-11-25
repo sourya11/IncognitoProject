@@ -3,11 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="testClass.RegressionTest">
+      <class name="testClass.SmoketTest">
         <methods>
+          <include name="checkIconAndMenuItem"/>
           <include name="flushReports"/>
           <include name="close"/>
-          <include name="CarInsuranceTestCase" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testClass.SmoketTest -->
+      <class name="testClass.RegressionTest">
+        <methods>
+          <include name="travelInsuranceTestCase" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="flushReports"/>
+          <include name="close"/>
+          <include name="CarInsuranceTestCase" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- testClass.RegressionTest -->
     </classes>

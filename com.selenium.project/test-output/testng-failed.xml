@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
+      <class name="testClass.SmoketTest">
+        <methods>
+          <include name="checkIconAndMenuItem"/>
+          <include name="flushReports"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testClass.SmoketTest -->
       <class name="testClass.RegressionTest">
         <methods>
           <include name="travelInsuranceTestCase" invocation-numbers="1 2 3 4 5 6"/>
@@ -11,13 +18,6 @@
           <include name="CarInsuranceTestCase" invocation-numbers="1 2 3"/>
         </methods>
       </class> <!-- testClass.RegressionTest -->
-      <class name="testClass.SmoketTest">
-        <methods>
-          <include name="Navigation"/>
-          <include name="flushReports"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testClass.SmoketTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
