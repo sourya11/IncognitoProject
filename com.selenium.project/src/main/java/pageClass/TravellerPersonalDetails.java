@@ -61,7 +61,7 @@ public class TravellerPersonalDetails extends pageBaseClass {
   			String emailError=driver.findElement(By.xpath(prop.getProperty("email_xpath"))).getText();
   			testCaseFail(emailError);
   		}
-  		else if(email=="rajsingh@gmail") {
+  		else if(email=="sourya.halder@gmail") {
   			String emailError1=driver.findElement(By.xpath(prop.getProperty("email_xpath"))).getText();
   			testCaseFail(emailError1);
   		}
